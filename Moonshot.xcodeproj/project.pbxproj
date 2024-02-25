@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		9201830B2B8A7441003FFF2F /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9201830A2B8A7441003FFF2F /* MoonshotApp.swift */; };
 		9201830D2B8A7441003FFF2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9201830C2B8A7441003FFF2F /* ContentView.swift */; };
-		9201830F2B8A7443003FFF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9201830E2B8A7443003FFF2F /* Assets.xcassets */; };
 		920183122B8A7443003FFF2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920183112B8A7443003FFF2F /* Preview Assets.xcassets */; };
+		92807E8F2B8B4712005D529E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92807E8E2B8B4712005D529E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		920183072B8A7441003FFF2F /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9201830A2B8A7441003FFF2F /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		9201830C2B8A7441003FFF2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9201830E2B8A7443003FFF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920183112B8A7443003FFF2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92807E8E2B8B4712005D529E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				9201830A2B8A7441003FFF2F /* MoonshotApp.swift */,
 				9201830C2B8A7441003FFF2F /* ContentView.swift */,
-				9201830E2B8A7443003FFF2F /* Assets.xcassets */,
+				92807E8E2B8B4712005D529E /* Assets.xcassets */,
 				920183102B8A7443003FFF2F /* Preview Content */,
 			);
 			path = Moonshot;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92807E8F2B8B4712005D529E /* Assets.xcassets in Resources */,
 				920183122B8A7443003FFF2F /* Preview Assets.xcassets in Resources */,
-				9201830F2B8A7443003FFF2F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
