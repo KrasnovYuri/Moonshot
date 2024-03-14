@@ -24,7 +24,10 @@ struct MissionView: View {
                     .scaledToFit()
                     .containerRelativeFrame(.horizontal) { width, axis in
                         width * 0.6
-                    }
+                    } //containerRelativeFrame() позволяет нам узнать размер контейнера представления
+                
+                Text(mission.formattedLaunchDate)
+                    .font(.caption)
                 
                 Rectangle()
                     .frame(height: 2)
